@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from './Card';
 import { robot } from './robot.js';
+import Searchbox from './Searchbox';
 
 const CardList = () => {
 
@@ -11,6 +12,7 @@ const CardList = () => {
     return (
         <div className="tc">
             <h1>ROBOFRIENDS</h1>
+            <Searchbox />
             <div>{result}</div>
         </div>
     );
