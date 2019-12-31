@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from './Card';
-import { robot } from './robot.js';
+import robot from './robot.js';
 import Searchbox from './Searchbox';
 
 const CardList = () => {

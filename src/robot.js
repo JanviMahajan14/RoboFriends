@@ -1,4 +1,4 @@
-export const robot = [
+const robot = [
     {
         id: 1,
         name: "Sammy Sam",
@@ -16,7 +16,7 @@ export const robot = [
     },
     {
         id: 4,
-        name: 'Patricia Lebsack',
+        name: 'Chilli Cheese',
         username: 'Karianne',
         email: 'Julianne.OConner@kory.org'
     },
@@ -57,3 +57,5 @@ export const robot = [
         email: 'Rey.Padberg@karina.biz'
     }
 ]
+
+export default robot;
