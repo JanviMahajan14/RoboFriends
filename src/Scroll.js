@@ -7,6 +7,10 @@ var divStyle = {
 }
 
 const Scroll = (props) => {
+    // uncomment to use ErrorBoundary
+    // if (true) {
+    //     throw new Error("NOOOO!")
+    // }
     return (
         <div style={divStyle}>
             {props.children}
